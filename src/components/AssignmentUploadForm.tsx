@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import '../styles/assignment-upload.css';
 
 export default function AssignmentUploadForm() {
   const [file, setFile] = useState<File | null>(null);

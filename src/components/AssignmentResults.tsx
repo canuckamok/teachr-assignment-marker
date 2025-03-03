@@ -3,6 +3,8 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { LuThumbsUp, LuThumbsDown } from 'react-icons/lu';
+import '../styles/assignment-results.css'; 
+import '../styles/extracted-text.css';
 
 export default function AssignmentResults() {
   const router = useRouter();

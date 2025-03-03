@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Assignment Marker
 
-## Getting Started
+A Next.js application that helps teachers grade student assignments using AI. The app allows teachers to upload assignments (including handwritten work), processes them with OCR, and provides AI-generated feedback.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Create and save assignment details (name, grade level, subject, rubric)
+- Upload student assignments as text or images
+- OCR processing for handwritten assignments (supports English, French, Spanish)
+- AI grading and feedback
+- Mobile-friendly interface for taking photos of assignments
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technology Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend & Backend**: Next.js with TypeScript
+- **Styling**: Tailwind CSS
+- **OCR**: Google Cloud Vision API
+- **AI Grading**: OpenAI API
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Local Development
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+- Node.js 16+ and npm
+- Google Cloud Vision API credentials
+- OpenAI API key
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Setup
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository
+2. Install dependencies
+   ```bash
+   npm install
